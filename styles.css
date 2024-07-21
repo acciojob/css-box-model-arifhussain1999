@@ -1,19 +1,11 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: white;
+.main_container{
+	width:300px;
+	background-color:lightblue;
+	border:15px solid blue;
+	padding:50px;
+	margin:20px;
+	
 }
-
-.box {
-    width: 300px;
-    background-color: lightblue;
-    border: 15px solid blue;
-    padding: 50px;
-    margin: 20px;
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
-    text-align: center; /* Center the text */
-    font-family: Arial, sans-serif; /* Optional: for a cleaner font */
+p{
+	color:black;
 }
